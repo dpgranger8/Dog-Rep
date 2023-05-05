@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1EB62B29F97E140038C38B /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EB62A29F97E140038C38B /* DogModel.swift */; };
 		7EB6219429F6C90200B91B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6219329F6C90200B91B70 /* AppDelegate.swift */; };
 		7EB6219629F6C90200B91B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6219529F6C90200B91B70 /* SceneDelegate.swift */; };
 		7EB6219829F6C90200B91B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6219729F6C90200B91B70 /* ViewController.swift */; };
@@ -16,6 +17,13 @@
 		7EB621AB29F6C90400B91B70 /* Rep_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621AA29F6C90400B91B70 /* Rep_APITests.swift */; };
 		7EB621B529F6C90400B91B70 /* Rep_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621B429F6C90400B91B70 /* Rep_APIUITests.swift */; };
 		7EB621B729F6C90400B91B70 /* Rep_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621B629F6C90400B91B70 /* Rep_APIUITestsLaunchTests.swift */; };
+		7EB621C429F6CBC500B91B70 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621C329F6CBC500B91B70 /* DogViewController.swift */; };
+		7EB621C629F6CEA900B91B70 /* RepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621C529F6CEA900B91B70 /* RepTableViewController.swift */; };
+		7EB621C829F6D6F600B91B70 /* RepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621C729F6D6F600B91B70 /* RepModel.swift */; };
+		7EB621CA29F6D78500B91B70 /* FetchImageDataFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621C929F6D78500B91B70 /* FetchImageDataFromURL.swift */; };
+		7EB621CC29F6D7AB00B91B70 /* DogAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621CB29F6D7AB00B91B70 /* DogAPIController.swift */; };
+		7EB621CE29F6D7B300B91B70 /* RepAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB621CD29F6D7B300B91B70 /* RepAPIController.swift */; };
+		7EF2D20729F9709800B745E5 /* RepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2D20629F9709800B745E5 /* RepTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E1EB62A29F97E140038C38B /* DogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
 		7EB6219029F6C90200B91B70 /* Rep API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rep API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB6219329F6C90200B91B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EB6219529F6C90200B91B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		7EB621B029F6C90400B91B70 /* Rep APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rep APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB621B429F6C90400B91B70 /* Rep_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rep_APIUITests.swift; sourceTree = "<group>"; };
 		7EB621B629F6C90400B91B70 /* Rep_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rep_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EB621C329F6CBC500B91B70 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		7EB621C529F6CEA900B91B70 /* RepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTableViewController.swift; sourceTree = "<group>"; };
+		7EB621C729F6D6F600B91B70 /* RepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepModel.swift; sourceTree = "<group>"; };
+		7EB621C929F6D78500B91B70 /* FetchImageDataFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageDataFromURL.swift; sourceTree = "<group>"; };
+		7EB621CB29F6D7AB00B91B70 /* DogAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPIController.swift; sourceTree = "<group>"; };
+		7EB621CD29F6D7B300B91B70 /* RepAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepAPIController.swift; sourceTree = "<group>"; };
+		7EF2D20629F9709800B745E5 /* RepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E1EB62929F97DFA0038C38B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EB621C729F6D6F600B91B70 /* RepModel.swift */,
+				7E1EB62A29F97E140038C38B /* DogModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7EB6218729F6C90200B91B70 = {
 			isa = PBXGroup;
 			children = (
+				7E1EB62929F97DFA0038C38B /* Models */,
 				7EB6219229F6C90200B91B70 /* Rep API */,
 				7EB621A929F6C90400B91B70 /* Rep APITests */,
 				7EB621B329F6C90400B91B70 /* Rep APIUITests */,
@@ -103,6 +129,12 @@
 				7EB6219529F6C90200B91B70 /* SceneDelegate.swift */,
 				7EB6219729F6C90200B91B70 /* ViewController.swift */,
 				7EB6219929F6C90200B91B70 /* Main.storyboard */,
+				7EB621C329F6CBC500B91B70 /* DogViewController.swift */,
+				7EB621C529F6CEA900B91B70 /* RepTableViewController.swift */,
+				7EB621C929F6D78500B91B70 /* FetchImageDataFromURL.swift */,
+				7EB621CB29F6D7AB00B91B70 /* DogAPIController.swift */,
+				7EB621CD29F6D7B300B91B70 /* RepAPIController.swift */,
+				7EF2D20629F9709800B745E5 /* RepTableViewCell.swift */,
 				7EB6219C29F6C90400B91B70 /* Assets.xcassets */,
 				7EB6219E29F6C90400B91B70 /* LaunchScreen.storyboard */,
 				7EB621A129F6C90400B91B70 /* Info.plist */,
@@ -259,8 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EB6219829F6C90200B91B70 /* ViewController.swift in Sources */,
+				7EF2D20729F9709800B745E5 /* RepTableViewCell.swift in Sources */,
+				7EB621CC29F6D7AB00B91B70 /* DogAPIController.swift in Sources */,
 				7EB6219429F6C90200B91B70 /* AppDelegate.swift in Sources */,
+				7EB621C629F6CEA900B91B70 /* RepTableViewController.swift in Sources */,
 				7EB6219629F6C90200B91B70 /* SceneDelegate.swift in Sources */,
+				7EB621CA29F6D78500B91B70 /* FetchImageDataFromURL.swift in Sources */,
+				7EB621C429F6CBC500B91B70 /* DogViewController.swift in Sources */,
+				7E1EB62B29F97E140038C38B /* DogModel.swift in Sources */,
+				7EB621C829F6D6F600B91B70 /* RepModel.swift in Sources */,
+				7EB621CE29F6D7B300B91B70 /* RepAPIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
